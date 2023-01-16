@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <input type="text" id="text2">
+            <br>
+            <select name="Ваши данные">
+            <option value="a">Имя</option>
+            <option value="b">Фамилия</option>
+            </select>
+            </div>
+        <br>
+        <div>
+            <label for="phone">Введите номер:</label>
+            <input type="tel" id="phone" name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required>
+        </div>
+
+        <br>
+        <div>
+            <label for="email">Введите email:</label>
+            <input type="email">
+        </div>
+        <div>
+            <label for="day">Введитe дату и время:</label>
+            <input type="datetime-local": id="day" name="day">
+            <button type="submit">Отправить данные</button>
+          </div>
+          <br>
+
+        <div>
+            <input type="radio" id="contactChoice2"
+            name="contact" value="ogyrec">
+            <label for="contactChoice2">Один огурец</label>
+            <br>
+            <input type="radio" id="contactChoice2"
+            name="contact" value="2ogyrec">
+            <label for="contactChoice2">Два огурца</label>
+            <br>
+            <input type="radio" id="contactChoice2"
+            name="contact" value="ogyrec">
+            <label for="contactChoice2">Три огурца</label>
+
+        </div>
+
+        <button type="submit">Отправить данные</button>
+        <input type="reset">
+    </form>
+</body>
+</html>
