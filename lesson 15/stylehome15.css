@@ -1,0 +1,9 @@
+.text{
+    color: aqua;
+}
+.parent{
+    color: blueviolet;
+}
+a[data-info~="#blog"] {
+    color: red;
+   }
